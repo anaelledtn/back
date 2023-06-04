@@ -9,7 +9,7 @@ CREATE TABLE USERWISH(
 CREATE TABLE ENVIE(
     id_env serial PRIMARY KEY,
     nom_e varchar(20) NOT NULL,
-    prix int NOT NULL,
+    prix float NOT NULL,
     description varchar(10) NOT NULL
 );
 
